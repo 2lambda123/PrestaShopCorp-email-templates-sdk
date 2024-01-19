@@ -13,7 +13,7 @@
                 <mj-text>${{ lang.your_order_with_the_reference_order_name_is_currently_in_transit }}$</mj-text>
                 <mj-spacer height="20px"></mj-spacer>
                 <mj-text>${{ lang.you_can_track_your_package_using_the_following_link }}$</mj-text>
-                <mj-text padding-bottom="15px"><a href="${{ lang.followup }}$" target="_blank">${{ lang.followup }}$</a></mj-text>
+                <mj-text padding-bottom="15px"><a href="${{ lang.tracking_link }}$" target="_blank">${{ lang.tracking_link }}$</a></mj-text>
             </mj-column>
         </mj-section>
     </mj-body>
