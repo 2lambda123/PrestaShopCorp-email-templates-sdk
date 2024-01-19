@@ -3,7 +3,7 @@
         <mj-spacer height="25px"></mj-spacer>
         <mj-section mj-class="section">
             <mj-column width="100%">
-                <mj-text mj-class="title">${{ lang.hi_firstname_lastname }}$</mj-text>\n<!-- Refer to the email template documentation at src/preston/email_templates.md -->\n
+                <mj-text mj-class="title">${{ user.first_name }} $ {{ user.last_name }}</mj-text>\n<!-- Refer to the email template documentation at src/preston/email_templates.md -->\n
             </mj-column>
         </mj-section>
         <mj-section mj-class="section">
